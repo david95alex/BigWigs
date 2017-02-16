@@ -9,15 +9,16 @@ end
 
 L = BigWigs:NewBossLocale("Chronomatic Anomaly", "ptBR")
 if L then
-	--L.affected = "Affected"
-	--L.totalAbsorb = "Total Absorb"
+	L.affected = "Afetado"
+	L.totalAbsorb = "Absorção Total"
 end
 
 L = BigWigs:NewBossLocale("Trilliax", "ptBR")
 if L then
-	--L.yourLink = "You are linked with %s"
-	--L.yourLinkShort = "Linked with %s"
-	--L.imprint = "Imprint"
+	L.yourLink = "Você está ligado a %s"
+	L.yourLinkShort = "Ligado a %s"
+	L.imprint = "Marca"
+	
 end
 
 L = BigWigs:NewBossLocale("Tichondrius", "ptBR")
@@ -35,13 +36,13 @@ if L then
 	L.leftBeam = "Feixe esquerdo"
 	L.rightBeam = "Feixe direito"
 
-	--L.goRight = "> GO RIGHT >"
-	--L.goLeft = "< GO LEFT <"
+	L.goRight = "> VÁ PARA DIREITA >"
+	L.goLeft = "< VÁ PARA ESQUERDA <"
 
-	L.smashingBridge = "Destruição da ponte" -- TODO: needs reviewing
-	--L.smashingBridge_desc = "Slams which break the bridge. You can use this option to emphasize or enable countdown."
+	L.smashingBridge = "Destruição da ponte"
+	L.smashingBridge_desc = "Batida que quebra a ponte. Você pode usar esta opção para enfatizar ou habilitar contagem regressiva."
 
-	--L.removedFromYou = "%s removed from you" -- "Searing Brand removed from YOU!"
+	L.removedFromYou = "%s removido de você" - "Estigma Calcinante removido de VOCÊ!""
 end
 
 L = BigWigs:NewBossLocale("Star Augur Etraeus", "ptBR")
